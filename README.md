@@ -3,8 +3,8 @@
 Please check https://github.com/JiangYou91/Medical-Image-Processing/blob/master/Brain%20MRI%20Segmentation%20UNet%2BLSTMConv2D%20Layers.ipynb 
 
 
-##Introduction
-The goal of this work is to reimplement the CNN based LSTM, a model which takes in the same time the spatial and temporal information. This design aims to improve the performance of 3D Brain tumors MRI images segementation. In particular, a set of brain slicing image could be considered as a sereis of moving image.
+## Introduction
+The goal of this work is to reimplement the CNN based LSTMConv2D lauyers, a model which takes in the same time the spatial and temporal information. This design aims to improve the performance of 3D Brain tumors MRI images segementation. In particular, a set of brain slicing image could be considered as a sereis of moving image.
 
 ## Method
 This experiments compare the result of segementation with Autoencoder, CNNbased LSTM, and its variation, Bidirectional CNN-LSTM. As a basical design, the model is composed of 3 part: 1. CNN based encoder, 2. LSTM Layers, 3. CNN based decoder.
